@@ -1,12 +1,5 @@
-import { toggleTheme } from "./themeToggle.js";
-
-const themeButton = document.getElementById("theme-toggle");
-
-themeButton.addEventListener("click", toggleTheme);
-
-
-//hambugger display
-document.addEventListener('DOMContentLoaded', initApp)
+export function hambuggerDisplay = ()=>{
+    document.addEventListener('DOMContentLoaded', initApp)
 const initApp = () => {
     const hamburgerBtn = document.getElementById('hamburger-button')
     const mobileMenu = document.getElementById('mobile-menu')
@@ -19,4 +12,5 @@ const initApp = () => {
 
     hamburgerBtn.addEventListener('click', toggleMenu)
     mobileMenu.addEventListener('click', toggleMenu)
+}
 }
