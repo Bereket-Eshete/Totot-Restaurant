@@ -1,9 +1,25 @@
 {
+  "name": "totot-restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwindcss": "npx tailwindcss -i ./src/input.css -o ./base/css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bereket-Eshete/Totot-Restaurant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Bereket-Eshete/Totot-Restaurant/issues"
+  },
+  "homepage": "https://github.com/Bereket-Eshete/Totot-Restaurant#readme",
   "devDependencies": {
     "tailwindcss": "^3.4.17"
-  },
-  "scripts": {
-    "tailwind": "npx tailwindcss -i ./src/input.css -o ./css/style.css --watch"
-    
   }
 }
